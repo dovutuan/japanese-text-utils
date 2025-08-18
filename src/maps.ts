@@ -27,6 +27,7 @@ export const halfKanaMap: Record<string, string> = {
     'ァ': 'ｧ','ィ': 'ｨ','ゥ': 'ｩ','ェ': 'ｪ','ォ': 'ｫ',
     'ッ': 'ｯ','ャ': 'ｬ','ュ': 'ｭ','ョ': 'ｮ',
     '。': '｡','、': '､','ー': 'ｰ','「': '｢','」': '｣','・': '･',
+    '　': ' ', '゛': 'ﾞ', '゜': 'ﾟ', '￥': '\\', '＂': '"', '＇': '\'',
 };
 
 /** Invert a string-to-string dictionary without external deps (lodash.invert). */
