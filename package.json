@@ -1,0 +1,53 @@
+{
+  "name": "japanese-text-utils",
+  "version": "1.0.0",
+  "description": "Convert full-width/half-width for Katakana + ASCII (TS/JS)",
+  "keywords": [
+    "Convert Japanese",
+    "katakana",
+    "kana",
+    "fullwidth",
+    "halfwidth",
+    "zenkaku",
+    "hankaku",
+    "unicode",
+    "normalize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dovutuan/japanese-text-utils.git"
+  },
+  "author": "dovutuan <tuando.0598@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dovutuan/japanese-text-utils/issues"
+  },
+  "homepage": "https://github.com/dovutuan/japanese-text-utils#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --emitDeclarationOnly && vite build",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
+  }
+}
