@@ -1,6 +1,6 @@
 {
   "name": "japanese-text-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert full-width/half-width for Katakana + ASCII (TS/JS)",
   "keywords": [
     "Convert Japanese",
