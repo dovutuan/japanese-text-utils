@@ -1,7 +1,7 @@
 {
   "name": "japanese-text-utils",
-  "version": "1.0.2",
-  "description": "Convert full-width/half-width for Katakana + ASCII (TS/JS)",
+  "version": "1.0.3",
+  "description": "Convert between full-width (Zenkaku) and half-width (Hankaku) characters in Japanese text. Supports Katakana, ASCII letters/digits, spaces, punctuation, and symbols.",
   "keywords": [
     "Convert Japanese",
     "katakana",
