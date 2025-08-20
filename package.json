@@ -1,6 +1,6 @@
 {
   "name": "japanese-text-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert full-width/half-width for Katakana + ASCII (TS/JS)",
   "keywords": [
     "Convert Japanese",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dovutuan/japanese-text-utils.git"
+    "url": "git+https://github.com/dovutuan/japanese-text-utils.git"
   },
   "author": "dovutuan <tuando.0598@gmail.com>",
   "license": "MIT",
